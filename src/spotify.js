@@ -5,7 +5,7 @@ Step 3. Redirect to Home Page once logged in
 */
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "https://israelspotify.com/";
+const redirectUri = "http://localhost:3000/";
 const clientId = "8c54ab3e5dae46c7b0ae5e50fee42f9e";
 
 const scopes = [
